@@ -1,8 +1,7 @@
-# Loan-Risk-Detection
-The Loan Risk Detection Project leverages machine learning to predict loan defaults using historical borrower data. This project aims to improve risk management, enhance decision-making, and ensure regulatory compliance for financial institutions by providing accurate risk assessments based on key loan and borrower attributes.
-
-
 Loan Risk Detection Project
+ 
+ 
+
 Table of Contents
 Overview
 Data Dictionary
@@ -10,10 +9,10 @@ Data Pre-processing
 Initial Data Exploration
 Model Building and Additional Data Treatments
 Final Model
-
 Overview
 History of Loan Risk
 Loan risk has been a challenge since the inception of banking, evolving from personal trust-based assessments to complex, data-driven models. Initially reliant on personal relationships, modern risk assessment now utilizes advanced algorithms and vast datasets to predict defaults more accurately.
+
 Industry Background and Key Objectives
 Banks provide critical financial support but face significant risks when borrowers default. Efficient risk detection systems are essential to mitigate these risks, ensuring financial stability and compliance with regulatory requirements.
 
@@ -67,7 +66,6 @@ acc_now_delinq: Number of accounts currently delinquent.
 tot_coll_amt: Total collection amounts owed.
 tot_cur_bal: Total current balance of all accounts.
 total_rev_hi_lim: Total high credit/credit limit.
-
 Data Pre-processing
 Steps Involved
 Reading Data: Import the CSV file and assess its size and structure.
@@ -79,7 +77,6 @@ Balancing Data: Address imbalances in the dataset for better model performance.
 Interpretation
 The dataset includes 17 float, 15 int, and 17 object values.
 Dropped columns with high missing values or irrelevant data.
-
 Initial Data Exploration
 Analysis Techniques
 Univariate Analysis: Examine each variable individually.
@@ -89,7 +86,6 @@ Objectives
 Identify patterns and correlations.
 Gain insights into the data distribution.
 Detect anomalies and trends.
-
 Model Building and Additional Data Treatments
 Approach
 Data Collection: Gather relevant data from various sources.
@@ -103,7 +99,6 @@ Splitting data into training and test sets.
 Scaling and encoding data for consistency.
 Training various classification models.
 Evaluating model performance and making adjustments.
-
 Final Model
 Summary
 The final model aims to accurately predict loan defaults.
@@ -114,4 +109,4 @@ Improved credit decision-making.
 Enhanced early warning systems.
 Proactive risk mitigation strategies.
 Optimized loan pricing and terms.
-Compliance with regulatory requirements.
+Compliance with regulatory requirements
